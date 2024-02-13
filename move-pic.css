@@ -1,0 +1,51 @@
+@keyframes move1
+    
+ {
+
+    12%{
+        
+        margin-top:0px;
+        margin-left:0px;
+    }
+
+    24%{
+        margin-top:0px;
+        margin-left:80%;
+    }
+
+    36% {
+        margin-left:80%;
+    }
+
+    48%{
+        margin-top: 30%;
+        margin-left: 80%;
+    }
+    60% {
+        margin-top: 30%;
+        margin-left: 80%;
+    }
+
+    72%{
+        margin-top: 30%;
+        margin-left:0px;
+    }
+    84% {
+        margin-top: 30%;
+        margin-left:0px;
+    }
+
+    100%{
+       margin-left: 40%;
+       margin-top: 15%;
+    }
+}
+
+img {
+    width:20%;
+    height:20%;
+    animation: 8s infinite move1;
+}
+
+
+
